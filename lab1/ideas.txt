@@ -1,0 +1,9 @@
+An interesting application that I think is possible and interesting is a variant of a personal planner.
+The basic idea is a note pad that auto-dates each new note with today's date and starts a checklist. Possible varients
+of this checklist would allow for the user to enter dates and times, or to start a to-do style checklist. Other possible
+avenues of features would be ways to track certain items, and once they're listed as gone, automatically add them to a shopping list.
+
+An application that is simply an entertaining idea is a campus wide squirrel tracker.
+I'm basing this off of an app rolled out by the state of Wisconsin that would let users log
+squirrels, and what they were doing when spotted. I think this app is useless for any practical
+use for the campus, but it would be a fun way to track our hordes of pseudo-domesticated squirrels
