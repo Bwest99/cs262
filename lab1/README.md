@@ -1,3 +1,9 @@
+CS262 - Lab 1
+This lab is based on [this URL](https://cs.calvin.edu/courses/cs/262/kvlinden/01introduction/lab.html)
+
+
+
+Answers to the lab questions:
 1. App.js contains the javascript for the entire application.
 
 2. package.json is a file of metadata specifying dependencies for the project.
