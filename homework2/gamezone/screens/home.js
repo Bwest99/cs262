@@ -17,13 +17,14 @@ export default function Home({ navigation }) {
     }, []);
 
     return (
+        
         <View style={globalStyles.container}>
             <FlatList data={data}
-            keyExtractor={({ id }, index) => id.toString()}
+            keyExtractor={({ email }, index) => id.toString()}
             renderItem={({ item }) => (
                 <TouchableOpacity onPress={() => navigation.navigate('ReviewDetails', item)}>
                     <Card>
-                        <Text style={globalStyles.titleText}>{ item.id }</Text>
+                        <Text style={globalStyles.titleText}>{ item.email }</Text>
                     </Card>
                 </TouchableOpacity>
             )} />
