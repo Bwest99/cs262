@@ -1,26 +1,6 @@
 {
-  "expo": {
-    "name": "cs262-monopoly-client",
-    "slug": "cs262-monopoly-client",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
-  }
+  "name": "Start on Heroku: monopolyService.js",
+  "description": "Data-based webservice for CS 262",
+  "repository": "https://github.com/kvlinden-courses/cs262-webservice",
+  "image": "heroku/nodejs"
 }

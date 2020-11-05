@@ -1,13 +1,12 @@
-node_modules/**/*
-.expo/*
-npm-debug.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.orig.*
-web-build/
+# Node build artifacts
+node_modules
+npm-debug.log
 
-# macOS
+# Local development
+*.env
+*.dev
 .DS_Store
+
+# Docker
+Dockerfile
+docker-compose.yml
