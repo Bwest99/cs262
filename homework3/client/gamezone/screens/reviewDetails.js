@@ -8,8 +8,9 @@ export default function ReviewDetails({ route, navigation }) {
     return (
         <View style={globalStyles.container}>
             <Card>
-                <Text>{ route.params.id }</Text>
-                <Text>{ route.params.email }</Text>
+                <Text>{ route.params.playerid }</Text>
+                <Text>{ route.params.gameid } </Text>
+                <Text>{ route.params.emailaddress }</Text>
                 <Text>{ route.params.name }</Text>
             </Card>
         </View>

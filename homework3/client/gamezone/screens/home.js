@@ -8,7 +8,7 @@ export default function Home({ navigation }) {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch('https://cs262-monopoly-service.herokuapp.com/players/')
+        fetch('https://desolate-fortress-44832.herokuapp.com/playergames')
         .then((response) => response.json())
         //.then((json) => console.log(json))
         .then((json) => setData(json))
@@ -20,11 +20,10 @@ export default function Home({ navigation }) {
         
         <View style={globalStyles.container}>
             <FlatList data={data}
-            keyExtractor={({ email }, index) => id.toString()}
             renderItem={({ item }) => (
                 <TouchableOpacity onPress={() => navigation.navigate('ReviewDetails', item)}>
                     <Card>
-                        <Text style={globalStyles.titleText}>{ item.email }</Text>
+                        <Text style={globalStyles.titleText}>{ item.emailaddress }</Text>
                     </Card>
                 </TouchableOpacity>
             )} />
