@@ -1,0 +1,1 @@
+I checked home.js for this lab. I kept all the formatting suggestions, such as stacking long lists and adjusting curly brackets, and didn't have any other suggestions to make. 
